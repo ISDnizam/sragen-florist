@@ -19,7 +19,6 @@
         <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="theme_wordpress_style-css" href="/assets/css/wordpress.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="custom-css" href="/assets/css/custom.css?ver=4.9.3" type="text/css" media="all" />
 
         <link rel="stylesheet" id="font_type_1-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400italic%2C400%2C600%2C700%2C300&#038;subset=latin&#038;ver=4.9.3" type="text/css" media="all" />
@@ -467,7 +466,7 @@
                                 <li id="nav_menu-4" class="widget-container widget_nav_menu">
                                     <h3 class="widget-title">Produk Kami</h3>
                                     <div class="menu-side-menu-container">
-                                        <ul id="menu-side-menu" class="menu">
+                                        <ul id="menu-side-menu" class="menu" style="list-style-type: none;">
                                             @foreach ($product as $key)
                                             <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
                                                 <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
@@ -522,9 +521,7 @@
                 <div class="copyright-footer">
                     <div class="container">
                         <div class="row">
-                            <ul class="text-center">
-                                <li id="text-2" class="widget-container widget_text"><div class="textwidget">Sragen Florist | © 2020, All rights reserved</div></li>
-                            </ul>
+                              <div class="text-center">Sragen Florist | © 2020, All rights reserved</div>
                         </div>
                     </div>
                 </div>
@@ -701,8 +698,8 @@
                 document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
             }
         </script>
-        <script type="text/javascript" src="/assets/js/bootstrap.min.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/parallax.js?ver=4.9.3"></script>
+        <script type="text/javascript" src="/assets/js/functions.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/js_composer_front.min.js?ver=5.4.5"></script>
     </body>
 </html>

@@ -4592,6 +4592,13 @@ ol.list li:before {
 
 .tab-pane:after {
   clear: both; }
+.site-footer .sub-menu {
+	display: none;
+}
+
+.site-footer .menu li.current-menu-ancestor a {
+	background: none;
+}
 
 /* Statement box
 ---------------------------------------- */
