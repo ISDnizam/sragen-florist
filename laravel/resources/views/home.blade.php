@@ -351,7 +351,7 @@
                                             <p>
                                                 Sragen florist merupakan sebuah Toko Bunga di Sragen yang menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist. Kami juga melayani pesanan karangan bunga untuk daerah Ngawi, Karanganyar dan sekitarnya, barang diantar sampai tempat tujuan 
                                             </p>
-                                            <footer><a class="font-1" href="/about">Baca Selengkapnya</a></footer>
+                                            <footer><a class="font-1" href="/tentang-toko-bunga-sragen">Baca Selengkapnya</a></footer>
                                         </div>
                                     </div>
                                 </div>
