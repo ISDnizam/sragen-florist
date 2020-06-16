@@ -21,7 +21,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-require __DIR__.'/../laravel/bootstrap/autoload.php';
+require __DIR__.'/laravel/vendor/autoload.php';
+
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
@@ -34,7 +35,8 @@ require __DIR__.'/../laravel/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../laravel/bootstrap/app.php';
+$app = require_once __DIR__.'/laravel/bootstrap/app.php';
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -47,6 +49,9 @@ $app = require_once __DIR__.'/../laravel/bootstrap/app.php';
 |
 */
 
+$app->bind('path.public', function() {
+return __DIR__;
+});
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $response = $kernel->handle(

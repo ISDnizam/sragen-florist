@@ -1,0 +1,6 @@
+[16-Jun-2020 05:53:39 UTC] PHP Warning:  require(/home/sragenfl/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/sragenfl/public_html/public/index.php on line 24
+[16-Jun-2020 05:53:39 UTC] PHP Warning:  require(/home/sragenfl/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/sragenfl/public_html/public/index.php on line 24
+[16-Jun-2020 05:53:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/sragenfl/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sragenfl/public_html/public/index.php on line 24
+[16-Jun-2020 06:12:12 UTC] PHP Warning:  require(/home/sragenfl/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/sragenfl/public_html/public/index.php on line 24
+[16-Jun-2020 06:12:12 UTC] PHP Warning:  require(/home/sragenfl/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/sragenfl/public_html/public/index.php on line 24
+[16-Jun-2020 06:12:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/sragenfl/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sragenfl/public_html/public/index.php on line 24
