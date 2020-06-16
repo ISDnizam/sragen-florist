@@ -65,14 +65,6 @@
                     </div>
                 </div>
                 <div class="header-wrap">
-                    <div class="site-search type-2" id="site-search">
-                        <div class="container">
-                            <form role="search" method="get" class="site-search-form" action="http://anpsthemes.com/florist-new-demos/2">
-                                <input name="s" type="text" class="site-search-input" placeholder="type and press &#8216;enter&#8217;" />
-                            </form>
-                            <button class="site-search-close">&times;</button>
-                        </div>
-                    </div>
                     <div class="container">
                         <div class="nav-bar-wrapper">
                             <div class="nav-bar">
@@ -127,7 +119,7 @@
     <footer class="site-footer style-1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-12">
                             <ul>
                                 <li id="anpsimages-2" class="widget-container widget_anpsimages">
                                     <img width="225" height="42" src="/assets/images/logo2.png" class="attachment-full size-full" alt="" />

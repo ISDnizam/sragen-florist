@@ -19,6 +19,7 @@
         <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
+        <link rel="stylesheet" id="theme_wordpress_style-css" href="/assets/css/wordpress.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="custom-css" href="/assets/css/custom.css?ver=4.9.3" type="text/css" media="all" />
 
         <link rel="stylesheet" id="font_type_1-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400italic%2C400%2C600%2C700%2C300&#038;subset=latin&#038;ver=4.9.3" type="text/css" media="all" />
@@ -171,7 +172,7 @@
 
                                                         <!-- LAYER NR. 1 -->
                                                         <div
-                                                            class="tp-caption content-slider-text tp-resizeme"
+                                                            class="tp-caption content-slider-text tp-resizeme hidden-xs"
                                                             id="slide-1-layer-1"
                                                             data-x="['left','left','left','left']"
                                                             data-hoffset="['16','54','54','-561']"
@@ -350,7 +351,7 @@
                                             <p>
                                                 Sragen florist merupakan sebuah Toko Bunga di Sragen yang menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist. Kami juga melayani pesanan karangan bunga untuk daerah Ngawi, Karanganyar dan sekitarnya, barang diantar sampai tempat tujuan 
                                             </p>
-                                            <footer><a class="font-1" href="/about">Baca Selengkapnya</a></footer>
+                                            <footer><a class="font-1" href="/tentang-toko-bunga-sragen">Baca Selengkapnya</a></footer>
                                         </div>
                                     </div>
                                 </div>
@@ -447,7 +448,7 @@
             <footer class="site-footer style-1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-12">
                             <ul>
                                 <li id="anpsimages-2" class="widget-container widget_anpsimages">
                                     <img width="225" height="42" src="/assets/images/logo2.png" class="attachment-full size-full" alt="" />
@@ -466,7 +467,7 @@
                                 <li id="nav_menu-4" class="widget-container widget_nav_menu">
                                     <h3 class="widget-title">Produk Kami</h3>
                                     <div class="menu-side-menu-container">
-                                        <ul id="menu-side-menu" class="menu" style="list-style-type: none;">
+                                        <ul id="menu-side-menu" class="menu">
                                             @foreach ($product as $key)
                                             <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
                                                 <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
@@ -521,7 +522,9 @@
                 <div class="copyright-footer">
                     <div class="container">
                         <div class="row">
-                              <div class="text-center">Sragen Florist | © 2020, All rights reserved</div>
+                            <ul class="text-center">
+                                <li id="text-2" class="widget-container widget_text"><div class="textwidget">Sragen Florist | © 2020, All rights reserved</div></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -698,8 +701,11 @@
                 document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
             }
         </script>
+
+        <script type="text/javascript" src="/assets/js/bootstrap.min.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/parallax.js?ver=4.9.3"></script>
-        <script type="text/javascript" src="/assets/js/functions.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/js_composer_front.min.js?ver=5.4.5"></script>
+        <script type="text/javascript" src="/assets/js/functions.js?ver=4.9.3"></script>
+
     </body>
 </html>
