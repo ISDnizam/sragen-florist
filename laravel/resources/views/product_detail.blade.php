@@ -60,10 +60,10 @@
                 <!-- #respond -->
             </div>
             <aside class="sidebar col-md-3">
-                <ul>
+                <ul  style="list-style-type: none; margin-left:-40px"> 
                     <li id="categories-2" class="widget-container widget_categories">
-                        <h3 class="widget-title">Product</h3>
-                        <ul>
+                        <h3 class="widget-title">Produk Lainnya</h3>
+                        <ul style="list-style-type: none; margin-left:-40px">
                             @foreach ($product as $key)
                             <li class="cat-item cat-item-7"><a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a></li>
                             @endforeach
