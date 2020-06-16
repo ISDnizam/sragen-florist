@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('homepage');
-Route::get('/about', 'HomeController@about')->name('about');
+Route::get('/tentang-toko-bunga-sragen', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/product/detail/{id}', 'HomeController@detail')->name('detailProduct');
 

@@ -18,31 +18,19 @@
 
         <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
-        <link rel="stylesheet" id="theme_main_style-css" href="/assets/css/style.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="theme_wordpress_style-css" href="/assets/css/wordpress.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="custom-css" href="/assets/css/custom.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="contact-form-7-css" href="/assets/css/styles.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="rs-plugin-settings-css" href="/assets/css/settings.css?ver=5.4.6.4" type="text/css" media="all" />
 
         <link rel="stylesheet" id="font_type_1-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400italic%2C400%2C600%2C700%2C300&#038;subset=latin&#038;ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="font_type_2-css" href="https://fonts.googleapis.com/css?family=PT+Sans%3A400italic%2C400%2C600%2C700%2C300&#038;subset=latin-ext%2Clatin&#038;ver=4.9.3" type="text/css" media="all" />
 
-        <link rel="stylesheet" id="prettyPhoto-css" href="/assets/css/prettyPhoto.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="owl-css-css" href="/assets/css/owl.carousel.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="pikaday-css" href="/assets/css/pikaday.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="florist-css" href="/assets/css/florist.css?ver=4.9.3" type="text/css" media="all" />
-        <link rel="stylesheet" id="transition-css" href="/assets/css/transition-4.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="js_composer_front-css" href="/assets/css/js_composer.min.css?ver=5.4.5" type="text/css" media="all" />
         <script type="text/javascript" src="/assets/js/jquery.js?ver=4.9.3"></script>
-        <script type="text/javascript" src="/assets/js/jquery-migrate.min.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/jquery.themepunch.tools.min.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/jquery.themepunch.revolution.min.js?ver=4.9.3"></script>
-
-
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/fontawesome.min.js"></script>
-      
     </head>
     <body class="home page-template-default page page-id-692 responsive wpb-js-composer js-comp-ver-5.4.5 vc_responsive" style="background: url();">
         <!-- Accesibility menu -->
@@ -97,7 +85,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0">
-                                            <a href="/about">Tentang</a>
+                                            <a href="/tentang-toko-bunga-sragen">Tentang</a>
                                         </li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0">
                                             <a href="/contact">Kontak</a>
@@ -713,14 +701,8 @@
                 document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
             }
         </script>
-        <script type="text/javascript" src="/assets/js/jquery.blockUI.min.js?ver=2.70"></script>
-        <script type="text/javascript" src="/assets/js/moment.js?ver=4.9.3"></script>
-        <script type="text/javascript" src="/assets/js/pikaday.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/bootstrap.min.js?ver=4.9.3"></script>
-        <script type="text/javascript" src="/assets/js/jquery.prettyPhoto.min.js?ver=3.1.6"></script>
         <script type="text/javascript" src="/assets/js/parallax.js?ver=4.9.3"></script>
-        <script type="text/javascript" src="/assets/js/imagesloaded.min.js?ver=3.2.0"></script>
-        <script type="text/javascript" src="/assets/js/owl.carousel.js?ver=4.9.3"></script>
         <script type="text/javascript" src="/assets/js/js_composer_front.min.js?ver=5.4.5"></script>
     </body>
 </html>

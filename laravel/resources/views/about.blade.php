@@ -1,7 +1,7 @@
 @extends('layouts.app') @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-12" style="margin-top:15px">
             <h2>Toko Bunga Sragen &#8211; Sragen Florist</h2>
             <p>
                 Sragen Florist merupakan sebuah Toko Bunga di Sragen yang menjual berbagai macam model bunga yang biasa anda perlukan untuk berbagai keperluan seperti dekorasi pernikahan, peresmian gedung, peresmian usaha, stike werk,
