@@ -1,8 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html lang="id">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="all,index,follow">
+        <meta name="description" content="Sragen florist atau Toko Bunga  Sragen merupakan sebuah Toko menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist." />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta property="og:locale" content="id_ID" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Toko bunga sragen" />
+        <meta property="og:description" content="Sragen florist atau Toko Bunga  Sragen merupakan sebuah Toko menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist." />
+        <meta property="og:url" content="https://sragenflorist.com" />
+
         <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_main_style-css" href="/assets/css/style.css?ver=4.9.3" type="text/css" media="all" />
