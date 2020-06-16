@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('homepage');
@@ -34,3 +34,7 @@ Route::get('admin/product/delete/{id}', 'admin\ProductController@delete');
 Route::get('admin/product/images/{id}', 'admin\ProductController@images');
 Route::get('admin/product/delete_image/{id}', 'admin\ProductController@delete_image');
 Route::post('admin/product/action_add_images', 'admin\ProductController@action_add_images');
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');

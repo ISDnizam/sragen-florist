@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="http://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_main_style-css" href="/assets/css/style.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
@@ -138,7 +138,7 @@
                                                         data-easein="default"
                                                         data-easeout="default"
                                                         data-masterspeed="400"
-                                                        data-thumb="http://anpsthemes.com/florist-new-demos/2/wp-content/uploads/2016/08/slider1-100x50.jpg"
+                                                        data-thumb="https://anpsthemes.com/florist-new-demos/2/wp-content/uploads/2016/08/slider1-100x50.jpg"
                                                         data-rotate="0"
                                                         data-saveperformance="off"
                                                         data-title="Slide"
@@ -156,7 +156,7 @@
                                                     >
                                                         <!-- MAIN IMAGE -->
                                                         <img
-                                                            src="http://anpsthemes.com/florist-new-demos/2/wp-content/uploads/2016/08/slider1.jpg"
+                                                            src="https://anpsthemes.com/florist-new-demos/2/wp-content/uploads/2016/08/slider1.jpg"
                                                             alt=""
                                                             title="slider1"
                                                             width="1920"
@@ -482,18 +482,34 @@
                                 <li id="anpsopeningtime-2" class="widget-container widget_anpsopeningtime">
                                     <h3 class="widget-title">Kontak Kami</h3>
                                     <table class="working-hours">
-                                        <tbody>
+                                    <tbody>
                                             <tr>
-                                                <th>Email</th>
-                                                <td>08:00-17:00</td>
+                                                <th>Senin</th>
+                                                <td>24 Jam</td>
                                             </tr>
                                             <tr>
-                                                <th>Phone//WA</th>
-                                                <td>08:00-17:00</td>
+                                                <th>Selasa</th>
+                                                <td>24 Jam</td>
                                             </tr>
                                             <tr>
-                                                <th>Alamat</th>
-                                                <td>08:00-17:00</td>
+                                                <th>Rabu</th>
+                                                <td>24 Jam</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kamis</th>
+                                                <td>24 Jam</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Jumat</th>
+                                                <td>24 Jam</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Sabtu</th>
+                                                <td>24 Jam</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Minggu</th>
+                                                <td>24 Jam</td>
                                             </tr>
                                         </tbody>
                                     </table>
