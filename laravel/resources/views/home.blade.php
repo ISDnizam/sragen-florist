@@ -156,7 +156,7 @@
                                                     >
                                                         <!-- MAIN IMAGE -->
                                                         <img
-                                                            src="https://anpsthemes.com/florist-new-demos/2/wp-content/uploads/2016/08/slider1.jpg"
+                                                            src="https://data.1freewallpapers.com/download/violet-roses-bouquet.jpg"
                                                             alt=""
                                                             title="slider1"
                                                             width="1920"
