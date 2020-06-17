@@ -31,6 +31,7 @@
                         <p>
                         {!! $detail->description !!}
                         </p>
+                        <a target="_self" href="https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga"  class="btn btn-sm style-1" id="custom-id-2" style="margin-top:-7px; margin-bottom:15px">Pesan Sekarang</a>
                     </div>
                 </article>
 <!-- 
@@ -60,10 +61,10 @@
                 <!-- #respond -->
             </div>
             <aside class="sidebar col-md-3">
-                <ul  style="list-style-type: none; margin-left:-40px"> 
+                <ul  style="list-style-type: none;"> 
                     <li id="categories-2" class="widget-container widget_categories">
                         <h3 class="widget-title">Produk Lainnya</h3>
-                        <ul style="list-style-type: none; margin-left:-40px">
+                        <ul style="list-style-type: none;">
                             @foreach ($product as $key)
                             <li class="cat-item cat-item-7"><a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a></li>
                             @endforeach

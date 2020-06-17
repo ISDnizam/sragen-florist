@@ -16,7 +16,6 @@
         <meta property="og:url" content="https://sragenflorist.com" />
 
 
-        <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="theme_wordpress_style-css" href="/assets/css/wordpress.css?ver=4.9.3" type="text/css" media="all" />
@@ -374,7 +373,10 @@
                                                     style="width:100%; height:250px"
                                                 />
                                             </div>
+                                            
                                         </figure>
+                                        <span class="onsale">Order WA : 0823402358020</span>
+
                                     </div>
                                     <div class="vc_empty_space" style="height: 15px;"><span class="vc_empty_space_inner"></span></div>
                                     <h3 class="heading-content style-1" style="color: #515151;margin-top:-10px"><span>{{$key->title}}</span></h3>
@@ -384,7 +386,6 @@
                                         </div>
                                     </div>
                                     <div class="vc_empty_space" style="height: 25px;"><span class="vc_empty_space_inner"></span></div>
-                                    <a target="_self" href="/product/detail/{{$key->id_product}}" class="btn btn-sm style-1" id="custom-id-1" style="">Baca Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -416,7 +417,7 @@
                                                         <div class="fa fa-link"></div>
                                                     </div>
                                                 </a>
-                                                <time class="recentblog-time" datetime="2014-12-12 12:47">16<span>Jun</span></time><svg class="recentblog-icon"><use xlink:href="#blog-icon"></use></svg>
+                                                <span class="onsale">Order WA : 0823402358020</span>
                                                 <div class="item-img">
                                                     <img
                                                     src="{{$key->image}}"
@@ -534,8 +535,11 @@
                                     </table>
                                 </li>
                             </ul>
+
                         </div>
-                        
+                    <div class="col-md-12 col-xs-12 hidden-md hidden-lg">
+                        <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=-7.422637,111.0310356&amp;q=Jalan%20Sukowati%2C%20Dusun%20Kebayanan%20Sragen%20Manggis%2C%20Sragen%20Wetan%2C%20Sragen%20Regency%2C%20Central%20Java+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map/">km radius map</a></iframe></div><br />
+                        </div>
                     </div>
                 </div>
                 <div class="copyright-footer">
