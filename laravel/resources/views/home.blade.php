@@ -525,21 +525,16 @@
                                     <table class="working-hours">
                                     <tbody>
                                             <tr>
-                                                <th>No HP</th>
+                                                <th>0823402358020</th>
                                             </tr>
                                             <tr>
-                                                <th>WA</th>
-                                            </tr>
-                                            <tr>
-                                                <th>Jalan s sssss ssssk jkjjkjk sdsdsd sdsdsd</td>
+                                                <th>Sragen Dok Rt. 19 Rw. 06, Jl. Raya Sukowati No. 462 Sragen</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </li>
                             </ul>
                         </div>
-
-
                         
                     </div>
                 </div>

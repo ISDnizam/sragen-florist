@@ -18,6 +18,7 @@
         <link rel="shortcut icon" href="https://anpsthemes.com/florist/wp-content/uploads/2015/09/favicon.png" type="image/x-icon" />
         <title>Toko Bunga Sragen - Sragen Florist</title>
         <link rel="stylesheet" id="theme_core_style-css" href="/assets/css/core.css?ver=4.9.3" type="text/css" media="all" />
+        <link rel="stylesheet" id="theme_wordpress_style-css" href="/assets/css/wordpress.css?ver=4.9.3" type="text/css" media="all" />
         <link rel="stylesheet" id="custom-css" href="/assets/css/custom.css?ver=4.9.3" type="text/css" media="all" />
 
         <link rel="stylesheet" id="font_type_1-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab%3A400italic%2C400%2C600%2C700%2C300&#038;subset=latin&#038;ver=4.9.3" type="text/css" media="all" />
@@ -119,7 +120,7 @@
     <footer class="site-footer style-1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-6">
                             <ul>
                                 <li id="anpsimages-2" class="widget-container widget_anpsimages">
                                     <img width="225" height="42" src="/assets/images/logo2.png" class="attachment-full size-full" alt="" />
@@ -132,27 +133,10 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="col-md-4 tablets-clear col-xs-6">
-                            <ul>
-                                <li id="nav_menu-4" class="widget-container widget_nav_menu">
-                                    <h3 class="widget-title">Produk Kami</h3>
-                                    <div class="menu-side-menu-container">
-                                        <ul id="menu-side-menu" class="menu"  style="list-style-type: none;">
-                                            @foreach ($product as $key)
-                                            <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
-                                                <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
-                                            </li>
-											@endforeach
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-3 col-xs-6">
                             <ul>
                                 <li id="anpsopeningtime-2" class="widget-container widget_anpsopeningtime">
-                                    <h3 class="widget-title">Kontak Kami</h3>
+                                    <h3 class="widget-title">Jam Operasional</h3>
                                     <table class="working-hours">
                                     <tbody>
                                             <tr>
@@ -188,6 +172,42 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-md-3 tablets-clear col-xs-6">
+                            <ul style="list-style-type: none;">
+                                <li id="nav_menu-4" class="widget-container widget_nav_menu">
+                                    <h3 class="widget-title">Produk Kami</h3>
+                                    <div class="menu-side-menu-container">
+                                        <ul id="menu-side-menu" class="menu"  style="list-style-type: none;">
+                                            @foreach ($product as $key)
+                                            <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
+                                                <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
+                                            </li>
+											@endforeach
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       
+
+                        <div class="col-md-3 col-xs-6">
+                            <ul style="list-style-type: none;">
+                                <li id="anpsopeningtime-2" class="widget-container widget_anpsopeningtime">
+                                    <h3 class="widget-title">Kontak Kami</h3>
+                                    <table class="working-hours">
+                                    <tbody>
+                                            <tr>
+                                                <th>0823402358020</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Sragen Dok Rt. 19 Rw. 06, Jl. Raya Sukowati No. 462 Sragen</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="copyright-footer">
