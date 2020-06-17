@@ -193,7 +193,7 @@
                 <div class="copyright-footer">
                     <div class="container">
                         <div class="row">
-                            <ul class="text-center">
+                            <ul class="text-center" style="list-style-type: none;">
                                 <li id="text-2" class="widget-container widget_text"><div class="textwidget">Sragen Florist | © 2020, All rights reserved</div></li>
                             </ul>
                         </div>

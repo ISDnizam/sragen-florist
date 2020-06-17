@@ -416,7 +416,7 @@
                                                         <div class="fa fa-link"></div>
                                                     </div>
                                                 </a>
-                                                <time class="recentblog-time" datetime="2014-12-12 12:47">12<span>Dec</span></time><svg class="recentblog-icon"><use xlink:href="#blog-icon"></use></svg>
+                                                <time class="recentblog-time" datetime="2014-12-12 12:47">16<span>Jun</span></time><svg class="recentblog-icon"><use xlink:href="#blog-icon"></use></svg>
                                                 <div class="item-img">
                                                     <img
                                                     src="{{$key->image}}"
@@ -448,7 +448,7 @@
             <footer class="site-footer style-1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-xs-12">
+                        <div class="col-md-3 col-xs-6">
                             <ul>
                                 <li id="anpsimages-2" class="widget-container widget_anpsimages">
                                     <img width="225" height="42" src="/assets/images/logo2.png" class="attachment-full size-full" alt="" />
@@ -461,27 +461,10 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="col-md-4 tablets-clear col-xs-6">
-                            <ul>
-                                <li id="nav_menu-4" class="widget-container widget_nav_menu">
-                                    <h3 class="widget-title">Produk Kami</h3>
-                                    <div class="menu-side-menu-container">
-                                        <ul id="menu-side-menu" class="menu">
-                                            @foreach ($product as $key)
-                                            <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
-                                                <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
-                                            </li>
-											@endforeach
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-3 col-xs-6">
                             <ul>
                                 <li id="anpsopeningtime-2" class="widget-container widget_anpsopeningtime">
-                                    <h3 class="widget-title">Kontak Kami</h3>
+                                    <h3 class="widget-title">Jam Operasional</h3>
                                     <table class="working-hours">
                                     <tbody>
                                             <tr>
@@ -517,12 +500,53 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-md-3 tablets-clear col-xs-6">
+                            <ul>
+                                <li id="nav_menu-4" class="widget-container widget_nav_menu">
+                                    <h3 class="widget-title">Produk Kami</h3>
+                                    <div class="menu-side-menu-container">
+                                        <ul id="menu-side-menu" class="menu">
+                                            @foreach ($product as $key)
+                                            <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
+                                                <a href="/product/detail/{{$key->id_product}}">{{ ucwords(strtolower($key->title))}}</a>
+                                            </li>
+											@endforeach
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       
+
+                        <div class="col-md-3 col-xs-6">
+                            <ul>
+                                <li id="anpsopeningtime-2" class="widget-container widget_anpsopeningtime">
+                                    <h3 class="widget-title">Kontak Kami</h3>
+                                    <table class="working-hours">
+                                    <tbody>
+                                            <tr>
+                                                <th>No HP</th>
+                                            </tr>
+                                            <tr>
+                                                <th>WA</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Jalan s sssss ssssk jkjjkjk sdsdsd sdsdsd</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        
                     </div>
                 </div>
                 <div class="copyright-footer">
                     <div class="container">
                         <div class="row">
-                            <ul class="text-center">
+                            <ul class="text-center" style="list-style-type: none;">
                                 <li id="text-2" class="widget-container widget_text"><div class="textwidget">Sragen Florist | © 2020, All rights reserved</div></li>
                             </ul>
                         </div>
