@@ -21,8 +21,8 @@
 
 	<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a href="/"><h2 style="color:#ccc">Nizam.id</h2></a>
-        <!-- <a class="navbar-brand brand-logo mr-5" href="/"><img src="/assets/images/logo.png" class="mr-2" alt="logo" style="height: 60px !important" /></a> -->
+        <!-- <a href="/"><h2 style="color:#ccc">Nizam.id</h2></a> -->
+        <a class="navbar-brand brand-logo mr-5" href="/"><img src="/assets/images/logo2.png" class="mr-2" alt="logo" style="margin-left:20px;height: 40px !important; width:100%" /></a>
         <a class="navbar-brand brand-logo-mini" href="/"><img src="/assets/images/logo.png" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -65,6 +65,13 @@
             <a class="nav-link" href="/admin/product">
               <i class="ti-clipboard menu-icon"></i>
               <span class="menu-title">Product</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/settings">
+              <i class="ti-clipboard menu-icon"></i>
+              <span class="menu-title">Settings</span>
             </a>
         </li>
 

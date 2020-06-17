@@ -27,9 +27,9 @@
                   <div class="wpb_text_column wpb_content_element " >
                      <div class="wpb_wrapper">
                         <p><strong>Toko Bunga Sragen - Florist Sragen</strong></p>
-                        <p>Sragen Dok Rt. 19 Rw. 06, Jl. Raya Sukowati No. 462 Sragen (Timur Terminal Lama-Selatan Jalan Raya)
+                        <p>{{ $address->value}}
                         </p>
-                        <p>Phone/WA: 0823402358020<br />
+                        <p>Phone/WA: {{ $phone->value}}<br />
                            </a>Website: www.sragenflorist.com
                         </p>
                      </div>

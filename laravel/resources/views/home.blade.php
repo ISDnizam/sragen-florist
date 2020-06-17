@@ -50,11 +50,11 @@
                             <ul class="contact-info">
                                 <li>
                                     <i class="fa fa-envelope" style="color: #ffffff;"></i><span class="important" style="color: #3f5b03 !important;"> Email</span><br />
-                                    <span style="color: #70862d;">info@sragenflorist.com</span>
+                                    <span style="color: #70862d;">{{ $email->value}}</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-phone" style="color: #ffffff;"></i> <span class="important" style="color: #3f5b03 !important;"> Phone/WA</span><br />
-                                    <span style="color: #70862d;">0823402358020</span>
+                                    <span style="color: #70862d;">{{ $phone->value}}</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-clock" style="color: #ffffff;"></i><span class="important" style="color: #3f5b03 !important;"> Jam Operasional</span><br />
@@ -95,7 +95,7 @@
                                         </li>
                                         @else
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0">
-                                            <a href="/admin">{{ Auth::user()->name }}</a>
+                                            <a href="/admin/product">{{ Auth::user()->name }}</a>
                                         </li>
                                         @endguest
                                     </ul>
@@ -463,7 +463,7 @@
                                             </div>
                                             
                                         </figure>
-                                        <span class="onsale">Order WA : 0823402358020</span>
+                                        <span class="onsale">Order WA : {{ $phone->value}}</span>
 
                                     </div>
                                     <div class="vc_empty_space" style="height: 15px;"><span class="vc_empty_space_inner"></span></div>
@@ -508,7 +508,7 @@
                                                         <div class="fa fa-link"></div>
                                                     </div>
                                                 </a>
-                                                <span class="onsale">Order WA : 0823402358020</span>
+                                                <span class="onsale">Order WA : {{ $phone->value}}</span>
                                                 <div class="item-img">
                                                     <img
                                                     src="{{$key->image}}"
@@ -617,10 +617,10 @@
                                     <table class="working-hours">
                                     <tbody>
                                             <tr>
-                                                <th>0823402358020</th>
+                                                <th>{{ $phone->value}}</th>
                                             </tr>
                                             <tr>
-                                                <th>Sragen Dok Rt. 19 Rw. 06, Jl. Raya Sukowati No. 462 Sragen</td>
+                                                <th>{{ $address->value}}</td>
                                             </tr>
                                         </tbody>
                                     </table>
