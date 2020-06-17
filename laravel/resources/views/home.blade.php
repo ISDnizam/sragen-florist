@@ -364,6 +364,7 @@
                                     <div class="wpb_single_image wpb_content_element vc_align_left">
                                         <figure class="wpb_wrapper vc_figure">
                                             <div class="vc_single_image-wrapper vc_box_border_grey">
+                                    <a class="post-hover" href="/product/detail/{{$key->id_product}}">
                                                 <img
                                                     width="100%"
                                                     height="250"
@@ -372,6 +373,7 @@
                                                     alt=""
                                                     style="width:100%; height:250px"
                                                 />
+                                                </a>
                                             </div>
                                             
                                         </figure>
@@ -379,7 +381,10 @@
 
                                     </div>
                                     <div class="vc_empty_space" style="height: 15px;"><span class="vc_empty_space_inner"></span></div>
-                                    <h3 class="heading-content style-1" style="color: #515151;margin-top:-10px"><span>{{$key->title}}</span></h3>
+                                    <h3 class="heading-content style-1" style="color: #515151;margin-top:-10px"><span>
+                                    <a class="post-hover" href="/product/detail/{{$key->id_product}}">
+                                    {{$key->title}}
+                                    </a></span></h3>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
                                             <p>{{strip_tags($key->description)}}</p>
