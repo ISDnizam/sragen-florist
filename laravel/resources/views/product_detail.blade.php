@@ -8,7 +8,7 @@
 <div class="page-breadcrumbs">
     <div class="container">
         <ul class="breadcrumbs">
-            <li><a href="http://anpsthemes.com/florist-new-demos/2">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li>{{$detail->title}}</li>
         </ul>
     </div>

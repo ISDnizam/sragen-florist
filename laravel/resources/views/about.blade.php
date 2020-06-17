@@ -1,4 +1,17 @@
 @extends('layouts.app') @section('content')
+<div class="page-heading style-2" style="margin-top:-15px">
+    <div class="container">
+        <h1>{{$title}}</h1>
+    </div>
+</div>
+<div class="page-breadcrumbs">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li>{{$title}}</li>
+        </ul>
+    </div>
+</div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12" style="margin-top:15px">
