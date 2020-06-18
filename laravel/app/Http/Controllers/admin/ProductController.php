@@ -13,7 +13,7 @@ class ProductController extends Controller
 
     public function __construct()
     {
-        // $this->middleware(['auth','verified']); << only verified email who can access
+        $this->middleware(['auth']); 
     }
 
     public function index(){
