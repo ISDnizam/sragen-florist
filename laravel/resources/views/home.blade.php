@@ -177,7 +177,7 @@
       data-height="none"
       data-whitespace="nowrap"
       data-type="button" 
-      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"http:\/\/themeforest.net\/item\/florist-wp-florist-flower-shop-theme-\/12943666?ref=Anps&license=regular&open_purchase_for_item_id=12943666&purchasable=source","delay":""}]'
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"/","delay":""}]'
       data-responsive_offset="on" 
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(10,0,0,1);bg:rgba(237,237,237,1);"}]'
       data-textAlign="['left','left','left','left']"
@@ -195,6 +195,7 @@
       data-height="none"
       data-whitespace="nowrap"
       data-type="button" 
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga","delay":""}]'
       data-responsive_offset="on" 
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(185,200,18,1);"}]'
       data-textAlign="['left','left','left','left']"
@@ -274,7 +275,7 @@
       data-height="none"
       data-whitespace="nowrap"
       data-type="button" 
-      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"http:\/\/themeforest.net\/item\/florist-wp-florist-flower-shop-theme-\/12943666?ref=Anps&license=regular&open_purchase_for_item_id=12943666&purchasable=source","delay":""}]'
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"/","delay":""}]'
       data-responsive_offset="on" 
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(10,0,0,1);bg:rgba(237,237,237,1);"}]'
       data-textAlign="['left','left','left','left']"
@@ -293,13 +294,17 @@
       data-whitespace="nowrap"
       data-type="button" 
       data-responsive_offset="on" 
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga","delay":""}]'
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(185,200,18,1);"}]'
       data-textAlign="['left','left','left','left']"
       data-paddingtop="[12,12,12,12]"
       data-paddingright="[35,35,35,35]"
       data-paddingbottom="[12,12,12,12]"
       data-paddingleft="[35,35,35,35]"
-      style="z-index: 13; white-space: nowrap; font-size: 13px; line-height: 17px; font-weight: 400; color: rgba(255,255,255,1);font-family:Roboto Slab;background-color:rgba(160,192,49,1);border-radius:4px 4px 4px 4px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">PESAN SEKARANG </div>
+      style="z-index: 13; white-space: nowrap; font-size: 13px; line-height: 17px; font-weight: 400; color: rgba(255,255,255,1);font-family:Roboto Slab;background-color:rgba(160,192,49,1);border-radius:4px 4px 4px 4px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+      <a href="https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga" style="color:white">
+      PESAN SEKARANG
+      </a> </div>
    <!-- LAYER NR. 10 -->
    <div class="tp-caption   tp-resizeme" 
       id="slide-5-layer-8" 
@@ -367,7 +372,7 @@
       data-height="none"
       data-whitespace="nowrap"
       data-type="button" 
-      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"http:\/\/themeforest.net\/item\/florist-wp-florist-flower-shop-theme-\/12943666?ref=Anps&license=regular&open_purchase_for_item_id=12943666&purchasable=source","delay":""}]'
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"/","delay":""}]'
       data-responsive_offset="on" 
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(10,0,0,1);bg:rgba(237,237,237,1);"}]'
       data-textAlign="['left','left','left','left']"
@@ -386,13 +391,16 @@
       data-whitespace="nowrap"
       data-type="button" 
       data-responsive_offset="on" 
+      data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga","delay":""}]'
       data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"100","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(185,200,18,1);"}]'
       data-textAlign="['left','left','left','left']"
       data-paddingtop="[12,12,12,12]"
       data-paddingright="[35,35,35,35]"
       data-paddingbottom="[12,12,12,12]"
       data-paddingleft="[35,35,35,35]"
-      style="z-index: 18; white-space: nowrap; font-size: 13px; line-height: 17px; font-weight: 400; color: rgba(255,255,255,1);font-family:Roboto Slab;background-color:rgba(160,192,49,1);border-radius:4px 4px 4px 4px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">PESAN SEKARANG </div>
+      style="z-index: 18; white-space: nowrap; font-size: 13px; line-height: 17px; font-weight: 400; color: rgba(255,255,255,1);font-family:Roboto Slab;background-color:rgba(160,192,49,1);border-radius:4px 4px 4px 4px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+      <a href="https://wa.me/+62%20823-4023-58020?text=halo%20saya%20mau%20pesan%20bunga" style="color:white">
+      PESAN SEKARANG</a> </div>
    <!-- LAYER NR. 15 -->
    <div class="tp-caption   tp-resizeme" 
       id="slide-6-layer-8" 
@@ -738,13 +746,13 @@
                             jsFileLocation: "//anpsthemes.com/florist-new-demos/2/wp-content/plugins/revslider/public/assets/js/",
                             sliderLayout: "fullwidth",
                             dottedOverlay: "none",
-                            delay: 9000,
+                            delay: 3000,
                             navigation: {
                                 keyboardNavigation: "off",
                                 keyboard_direction: "horizontal",
                                 mouseScrollNavigation: "off",
                                 mouseScrollReverse: "default",
-                                onHoverStop: "on",
+                                onHoverStop: "fasle",
                                 touch: {
                                     touchenabled: "on",
                                     touchOnDesktop: "off",
@@ -755,7 +763,7 @@
                                 },
                                 arrows: {
                                     style: "custom",
-                                    enable: true,
+                                    enable: false,
                                     hide_onmobile: false,
                                     hide_onleave: true,
                                     hide_delay: 200,

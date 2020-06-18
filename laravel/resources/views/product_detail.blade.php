@@ -22,7 +22,12 @@
                         <img
                             style="width:100%; height:550px"
                             src="{{$detail->image}}"
-                            class="attachment-blog-full size-blog-full wp-post-image"
+                            class="attachment-blog-full size-blog-full wp-post-image hidden-xs"
+                        />
+                        <img
+                            style="width:100%; height:250px"
+                            src="{{$detail->image}}"
+                            class="attachment-blog-full size-blog-full wp-post-image hidden-md hidden-lg"
                         />
                     </header>
                     <h1>{{$detail->title}}</h1>
