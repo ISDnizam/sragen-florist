@@ -541,7 +541,7 @@
 
                         </div>
                     <div class="col-md-12 col-xs-12 hidden-md hidden-lg">
-                        <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;coord=-7.422637,111.0310356&amp;q=Jalan%20Sukowati%2C%20Dusun%20Kebayanan%20Sragen%20Manggis%2C%20Sragen%20Wetan%2C%20Sragen%20Regency%2C%20Central%20Java+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map/">km radius map</a></iframe></div><br />
+                    <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-7.361618,111.0861789&amp;q=-7.361618%2C111.0883676+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=20&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">GPS coordinates</a></iframe></div><br />
                         </div>
                     </div>
                 </div>
