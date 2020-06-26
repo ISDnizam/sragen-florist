@@ -6,11 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="robots" content="all,index,follow">
         <meta name="description" content="Sragen florist atau Toko Bunga  Sragen merupakan sebuah Toko menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist." />
+        <meta name="title" content="Toko bunga sragen"/>
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta property="og:locale" content="id_ID" />
-        <meta property="og:type" content="article" />
         <meta property="og:title" content="Toko bunga sragen" />
         <meta property="og:description" content="Sragen florist atau Toko Bunga  Sragen merupakan sebuah Toko menjual berbagai macam keperluan anda yang berkaitan dengan rangkaian bunga/florist." />
         <meta property="og:url" content="https://sragenflorist.com" />
