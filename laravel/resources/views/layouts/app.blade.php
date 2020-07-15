@@ -207,7 +207,7 @@
                             </ul>
                         </div>
                         <div class="col-md-12 col-xs-12 hidden-md hidden-lg">
-                    <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-7.361618,111.0861789&amp;q=-7.361618%2C111.0883676+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=20&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">GPS coordinates</a></iframe></div><br />
+                        <div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-7.361611,111.0881219&amp;q=-7.361611%2C111.0881219+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.gps.ie/">GPS coordinates</a></iframe></div><br />
                         </div>
                     </div>
                 </div>
